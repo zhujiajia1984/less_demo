@@ -31,10 +31,16 @@ module.exports = {
                 {
                     loader: "less-loader",
                     options: {
-                        modifyVars: {
-                            '@nice-blue': 'red'
-                        }
+                        paths: [
+                            path.resolve(__dirname, "node_modules/antd")
+                        ],
+                        javascriptEnabled: true
                     }
+                    // options: {
+                    //     modifyVars: {
+                    //         '@nice-blue': 'red'
+                    //     }
+                    // }
                 },
             ]
         }, ]
