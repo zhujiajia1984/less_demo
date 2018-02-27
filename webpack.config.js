@@ -31,9 +31,9 @@ module.exports = {
                 {
                     loader: "less-loader",
                     options: {
-                        paths: [
-                            path.resolve(__dirname, "node_modules/antd")
-                        ],
+                        // paths: [
+                        //     path.resolve(__dirname, "node_modules/antd")
+                        // ],
                         javascriptEnabled: true
                     }
                     // options: {
